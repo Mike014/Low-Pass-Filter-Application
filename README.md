@@ -21,6 +21,23 @@ This web application allows users to apply a low-pass filter to a synthetically 
 - Users can play the filtered signal by clicking a button.
 - Playback is handled using the Web Audio API.
 
+## How to Download and Run the Application
+
+To get started with the **Low-Pass Filter Application**, follow these simple steps:
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/Mike014/Low-Pass-Filter-Application.git
+   cd Low-Pass-Filter-Application
+
+1. **Run the Development Server:**
+   ```bash
+   python manage.py runserver
+
+1. **Access the Application:**
+   ```bash
+   Open your web browser and navigate to http://127.0.0.1:8000/ to start using the application.
+
 ## Conclusion
 
 This application demonstrates how to use Django to create an interactive web interface that allows users to apply a low-pass filter to an audio signal. It uses Plotly to visualize the signals and the Web Audio API to play the filtered signal.
